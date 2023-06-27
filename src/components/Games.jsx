@@ -1,5 +1,4 @@
 export default function Games(props) {
-  console.log(props);
   const gameImg = props.img;
   const gameCat = props.category;
   const totalSpecs = props.specs;
@@ -11,6 +10,11 @@ export default function Games(props) {
         <img src={gameImg}></img>
         <h5>{gameCat}</h5>
         <p>{totalSpecs} espectadores</p>
+        {/* {
+          props.tags.map((tag,index) => {
+            return <p key={`tag-${index}`}>{tag}</p>
+          })
+        } */}
       </a>
     </article>
   );
