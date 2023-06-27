@@ -43,7 +43,7 @@ function App() {
             <Streamers
               img="https://static-cdn.jtvnw.net/jtv_user_pictures/a28b0d37-81d0-415a-8ed8-1a1f998ea26d-profile_image-70x70.png"
               streamer="Streamer 7"
-              viewers="796"
+              viewers="0"
               game="Fortnite"
             />
             <Streamers
