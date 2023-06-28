@@ -36,13 +36,13 @@ function App() {
             category="Rust"
             specs="79.2k"
           />
-          {/* {
+          {
               games.map((game,index)=> {
                 return (
-                  <Games key={`game-li-${index}`} img={game.img} category={game.category} specs={game.specs}  tags={game.tags} />
+                  <Games key={`game-li-${index}`} img={game.img} category={game.category} specs={game.specs} />
                 )
               })
-            } */}
+            }
           <Games
             img="https://static-cdn.jtvnw.net/ttv-boxart/518203-285x380.jpg"
             category="Sports"
